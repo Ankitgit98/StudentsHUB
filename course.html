@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> StudentHUB </title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="img/logo.jpg"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"> HOME </a></li>
+                    <li><a href="about.html"> ABOUT </a></li>
+                    <li><a href="course.html"> COURSE </a></li>
+                    <li><a href="blog.html"> BLOG </a></li>
+                    <li><a href="contact .html"> CONTACT </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+
+        </nav>
+
+        <h1>Our Course</h1>
+    </section>
+
+    <!--  Course content -->
+
+    <!-- course section -->
+
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p> Browse Study ... Courses and short courses are offered in a number of fields.</p>
+
+        <div class="row">
+
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p> relating to or having the knowledge or skill of someone who is more advanced than a beginner but not
+                    yet an expert. intermediate.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Undergraduate Degree</h3>
+                <p>An undergraduate degree is a colloquial term for an academic degree earned by a person who has
+                    completed undergraduate courses.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>Postgraduate education can involve studying for qualifications such as postgraduate certificates
+                    and postgraduate diplomas. </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Faculties-->
+
+    <section class="faculties">
+        <h1> Our Faculties</h1>
+        <p>Our range of faculties showcases the breadth of Sydney University's expertise and thought leadership.</p>
+
+        <div class="row">
+            <div class="faculties-col">
+                <img src="img/library.png">
+                <h3>Library</h3>
+
+            </div>
+            <div class="faculties-col">
+                <img src="img/basketball.png">
+                <h3>Basketball</h3>
+            </div>
+
+            <div class="faculties-col">
+                <img src="img/cafeteria.png">
+                <h3>Cafeteria</h3>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- -----   Footer ------- -->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>The following is a list of largest universities in the world by country listing only <br> the largest
+            university in each country.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-user-o"></i> BY: AKKI </p>
+    </section>
+
+
+
+
+
+
+
+    <!-- js Code For toggle button: -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> StudentHUB </title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="img/logo.jpg"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"> HOME </a></li>
+                    <li><a href="about.html"> ABOUT </a></li>
+                    <li><a href="course.html"> COURSE </a></li>
+                    <li><a href="blog.html"> BLOG </a></li>
+                    <li><a href="contact .html"> CONTACT </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2021 </h1>
+    </section>
+
+    <!--  blog content -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/cetificate.jpg">
+
+                <h2>Our Certificate & Online Programs For 2021</h2>
+
+                <p>At the top of the list is Indira Gandhi National Open University (IGNOU), the world's largest
+                    university in terms of student population. IGNOU has gone a long way toward fulfilling its goal of
+                    providing higher education to everyone. It was founded in 1985 and has risen to tremendous heights
+                    in a very short period of time. Dubbed the People's University, IGNOU has courses related to every
+                    field in every possible form including face-to-face, online, and distance education. It has the
+                    lowest fees of any university in India. <br>
+
+
+                    There are three other open universities including Dr. Ambedkar Open University, Yashwantrao Chavan
+                    Open University and the MP Bhoj University that make the list. <br>
+
+                    In second place is the University of Mumbai (formerly known as Bombay University / University of
+                    Bombay) which has the second fastest growth in student population after IGNOU. Earlier it was in the
+                    seventh place but in less than five years it has moved into the second position. In addition to its
+                    distance education program, University of Mumbai has a number of affiliated colleges. <br>
+
+                    In 2010, The Uttar Pradesh Technical University (UPTU) split, forming the Gautam Buddha Technical
+                    University(GBTU) and Mahamaya Technical University (MTU). In this list, both colleges are listed as
+                    a single entity until further data is made available. <br>
+
+                    The list has only one private university: Sikkim Manipal University (SMU) which posted impressive
+                    numbers right from its founding in 1995. <br>
+
+
+                    Though Banaras Hindu University is the biggest university in terms of the number of students who
+                    live on campus, it is not included on this list because its total student population is around
+                    40,000. It does however earn a place on the list of largest universities by campus size. <br>
+
+                    Note: The numbers given below reflect the number of students taking courses directly from the
+                    University, not affiliated colleges..</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a Comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="text" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"> </textarea>
+                            <button type="submit" class="hero-btn red-btn">Post Comment </button>
+    
+
+                        </form>
+
+
+                    </div>
+
+            </div>
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analylics</span>
+                    <span> 21 </span>
+                </div>
+                <div>
+                    <span> Data Science</span>
+                    <span> 28 </span>
+                </div>
+                <div>
+                    <span> Machine Learning</span>
+                    <span> 15 </span>
+                </div>
+                <div>
+                    <span> Computer Science</span>
+                    <span> 34 </span>
+                </div>
+                <div>
+                    <span> AutoCAD</span>
+                    <span> 42 </span>
+                </div>
+                <div>
+                    <span> Joumolism</span>
+                    <span> 22 </span>
+                </div>
+                <div>
+                    <span> Commerce</span>
+                    <span> 30 </span>
+                </div>
+
+            </div>
+
+
+    </section>
+
+
+
+
+
+
+
+    <!-- -----   Footer ------- -->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>The following is a list of largest universities in the world by country listing only <br> the largest
+            university in each country.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-user-o"></i> BY: AKKI </p>
+    </section>
+
+
+
+
+
+
+
+    <!-- js Code For toggle button: -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
